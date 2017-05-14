@@ -1,0 +1,17 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	font-family: 微软雅黑, iconfont;
+	height: 100%;
+}
+
+ol, li{
+	list-style-type: none;
+}
+
+a, a:hover, a:visited{
+	text-decoration: none;
+}

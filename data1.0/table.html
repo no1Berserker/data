@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>数据表</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="addData">
+        分类：<input class="classify" type="text" placeholder="请输入分类">
+        标题：<input class="heading" type="text" placeholder="请输入标题">
+        班级：<input class="grade" type="text" placeholder="请输入班级">
+        状态：<input class="status" type="text" placeholder="请输入状态">
+        创建时间：<input class="createTime" type="text" placeholder="请输入时间">
+        创建者：<input class="creator" type="text" placeholder="请输入创建者">
+        分校地区：<input class="area" type="text" placeholder="请输入地区">
+        <input class="addBtn" type="button" value="添加数据">
+        <span class="error">请勿留空！</span>
+    </div>
+    <table>
+        <thead>
+            <th><input type="checkbox" class="checkAll"></th>
+            <th>ID<span class="up-down">&#xe6e1;</span></th>
+            <th>分类</th>
+            <th>标题</th>
+            <th>班级</th>
+            <th>状态</th>
+            <th>创建时间</th>
+            <th>创建者</th>
+            <th>分校地区</th>
+            <th>删除</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <input type="button"  value="删除" class="delete">
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/js.js"></script>
